@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Owner" content="Shivansh Agrawal">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="p-about-style.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <article>
+        <header>
+            <div class="animate">
+                <h1>
+                    <div><strong>
+                        🌮THE LITTLE <span class="nowrap">TACO SHOP🌮</span>
+                        </strong>
+                    </div>
+                    <div>
+                        <span class="ic--round-close"></span>
+                        <span class="ic--round-menu"></span>
+                    </div>
+                </h1>
+                <nav>
+                    <ul>
+                        <li><a href="/">Home-Page</a></li>
+                        <li><a href="/#menu">Our Menu</a></li>
+                        <li><a href="hours.html">Store Hours</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <img src="img/tacos_delicioso_1000x667.png" alt="">
+            <section class="Our_location">
+                <h2>Our Location</h2>
+                <p>
+                <address>
+                    Barghat road, near MPEB office, <br>
+                    Taigore Ward, Seoni, (M.P),<br>
+                    480848
+                </address>
+                </p>
+                <p>
+                    Phone-
+                    <a href="tel:5555555555">555-555-5555</a>
+                </p>
+            </section>
+            <section class="form">
+                <h2>Our Contact Form</h2>
+                <form action="https://httpbin.org/get" method="get">
+                    <fieldset>
+                        <legend>Send us a message</legend>
+                        <p>
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" id="name" required placeholder="Ryan Reynolds">
+                            </p>
+                            <p>
+                            <label for="email">Your email:</label>
+                            <input type="emai" name="email" id="email" placeholder="abcd1234@gmail.com" required>
+                        </p>
+                        <p>
+                            <label for="remarks">Your message/remarks</label>
+                            <br>
+                            <textarea name="remarks" id="remarks" cols="60" rows="10"
+                                placeholder="Kindly share your experience"></textarea>
+                        </p>
+                    </fieldset>
+                    <div class="button">
+                    <button type="submit" formmethod="post" formaction="https://httpbin.org/post">Send</button>
+                    <button type="reset">Reset</button>
+                </div>
+                </form>
+            </section>
+            
+            <p>
+                <a href="#" class="back-to-top">Back to Top</a>
+            </p>
+        </main>
+        <hr>
+        <footer>
+            <p>Copyright &copy; <time id="year"></time> The Little Taco Shop</p>
+        </footer>
+    </article>
+</body>
+
+</html>
